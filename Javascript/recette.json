@@ -21,7 +21,7 @@
                 },
                 {
                     "ingredient" : "Sucre",
-                    "quantite" : 30,
+                    "quantity" : 30,
                     "unit" : "grammes"
                 },
                 {
@@ -39,7 +39,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient" : "Thon Rouge (ou blanc)",
+                    "ingredient" : "Thon Rouge",
                     "quantity" : 200,
                     "unit" : "grammes"
                 },
@@ -48,19 +48,19 @@
                     "quantity" : 1
                 },
                 {
-                    "ingredient" : "Tomate",
+                    "ingredient" : "Tomates",
                     "quantity" : 2
                 },
                 {
                     "ingredient" : "Carotte",
-                    "quantite" : 1
+                    "quantity" : 1
                 },
                 {
-                    "ingredient" : "Citron Vert",
+                    "ingredient" : "Citron vert",
                     "quantity" : 5
                 },
                 {
-                    "ingredient" : "Lait de Coco",
+                    "ingredient" : "Lait de coco",
                     "quantity" : 100,
                     "unit" : "ml"
                 }
@@ -119,7 +119,7 @@
                     "quantity": 200,
                     "unit": "grammes"
                 },{
-                    "ingredient": "Tomate",
+                    "ingredient": "Tomates",
                     "quantity": 2
                 },
                 {
@@ -161,12 +161,12 @@
                     "quantity": 2
                },
                {
-                   "ingredient": "Crème fraiche",
+                   "ingredient": "Crème fraîche",
                    "quantity": 2,
                    "unit": "cuillères à soupe"
                },
                {
-                   "ingredient": "gruyère râpé",
+                   "ingredient": "Gruyère",
                    "quantity": 100,
                    "unit": "grammes"
                },
@@ -191,20 +191,20 @@
                     "quantity": 1
                 },
                 {
-                    "ingredient": "Pomme",
+                    "ingredient": "Pommes",
                     "quantity": 3
                 },
                 {
                     "ingredient": "Oeuf",
-                    "quantity": "2"
+                    "quantity": 2
                 },
                 {
-                    "ingredient":"Crème fraiche",
+                    "ingredient":"Crème fraîche",
                     "quantity":25,
                     "unit": "cl"
                 },
                 {
-                    "ingredient": "Sucre en Poudre",
+                    "ingredient": "Sucre en poudre",
                     "quantity": 100,
                     "unit":"grammes"
                 },
@@ -229,7 +229,7 @@
                     "quantity": 1
                 }, 
                 {
-                    "ingredient": "Chocolat au lait",
+                    "ingredient": "Chocolat",
                     "quantity": 300,
                     "unit": "grammes"
                 },
@@ -240,7 +240,7 @@
                 },
                 {
                     "ingredient": "Beurre",
-                    "quantity": "30",
+                    "quantity": 30,
                     "unit": "grammes"
                 },
                 {
@@ -277,12 +277,12 @@
                     "quantity": 2
                },
                {
-                   "ingredient": "Sucre en Poudre",
-                   "quantity": "110",
+                   "ingredient": "Sucre en poudre",
+                   "quantity": 110,
                    "unit": "grammes"
                },
                {
-                    "ingredient": "farine",
+                    "ingredient": "Farine",
                     "quantity": 90,
                     "unit": "grammes"
                }
@@ -384,7 +384,7 @@
                     "quantity": 1
                 },
                 {
-                    "ingredient": "Salade Verte",
+                    "ingredient": "Salade verte",
                     "quantity": 1
                 },
                 {
@@ -418,7 +418,7 @@
                 },
                 {
                     "ingredient": "Eau",
-                    "quantity" : "0.5",
+                    "quantity" : 0.5,
                     "unit" : "tasses"
                 }
             ],
@@ -528,12 +528,12 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "Chocolat au lait",
+                    "ingredient": "Chocolat",
                     "quantity": 100,
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Banane",
+                    "ingredient": "Bananes",
                     "quantity": 4
                 }
             ],
@@ -548,7 +548,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient": "Tomate",
+                    "ingredient": "Tomates",
                     "quantity": 500,
                     "unit": "grammes"
                 },
@@ -568,7 +568,7 @@
                     "unit":"tiges"
                 },
                 {
-                    "ingredient": "huile d'olives",
+                    "ingredient": "Huile d'olive",
                     "quantity": 2,
                     "unit": "cuillère à soupe"
                 }
@@ -641,7 +641,7 @@
             "servings": 4,
             "ingredients": [
                 {
-                    "ingredient": "Kiwi",
+                    "ingredient": "Kiwis",
                     "quantity": 4
                 },
                 {
@@ -659,7 +659,7 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "Banane",
+                    "ingredient": "Bananes",
                     "quantity": 1
                 }
             ],
@@ -684,7 +684,7 @@
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Crème fraiche",
+                    "ingredient": "Crème fraîche",
                     "quantity": 200,
                     "unit": "grammes"
                 },
@@ -694,7 +694,7 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "huile d'olive",
+                    "ingredient": "Huile d'olive",
                     "quantity": 1,
                     "unit": "cuillères à soupe"
                 }
@@ -724,7 +724,7 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "Viande hachée 1% de matière grasse",
+                    "ingredient": "Viande hachée",
                     "quantity": 400,
                     "unit":"grammes"
                 },
@@ -734,7 +734,7 @@
                     "unit": "cl"
                 },
                 {
-                    "ingredient": "Crème Fraiche",
+                    "ingredient": "Crème fraîche",
                     "quantity" : 1,
                     "unit": "cuillères à soupe"
                 }
@@ -804,7 +804,7 @@
                     "quantity": 3
                 },
                 {
-                    "ingredient": "Crème Fraîche",
+                    "ingredient": "Crème fraîche",
                     "quantity": 20,
                     "unit": "cl"
                 },
@@ -835,7 +835,7 @@
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Tomate",
+                    "ingredient": "Tomates",
                     "quantity": 1
                 },
                 {
@@ -899,7 +899,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient": "Tomate",
+                    "ingredient": "Tomates",
                     "quantity": 6
                 },
                 {
@@ -907,7 +907,7 @@
                     "quantity": 1
                 },
                 {
-                    "ingredient": "Huile d'olives"
+                    "ingredient": "Huile d'olive"
                 },
                 {
                     "ingredient": "Oignon",
@@ -983,7 +983,7 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "Crême fraîche",
+                    "ingredient": "Crème fraîche",
                     "quantity": 10,
                     "unit": "cl"
                 }
@@ -1055,7 +1055,7 @@
             "servings": 4,
             "ingredients": [
                 {
-                    "ingredient": "Carotte",
+                    "ingredient": "Carottes",
                     "quantity": 2
                 },
                 {
@@ -1068,7 +1068,7 @@
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Petits poids",
+                    "ingredient": "Petits pois",
                     "quantity": 100,
                     "unit":"grammes"
                 },
@@ -1135,7 +1135,7 @@
                     "unit": "tranches"
                 },
                 {
-                    "ingredient": "Saumon Fumé",
+                    "ingredient": "Saumon fumé",
                     "quantity": 4,
                     "unit": "tranches"
                 },
@@ -1178,7 +1178,7 @@
                     "ingredient": "Huile d'olive"
                 },
                 {
-                    "ingredient": "Orange",
+                    "ingredient": "Oranges",
                     "quantity": 1
                 }
             ],
@@ -1193,7 +1193,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient": "Carotte",
+                    "ingredient": "Carottes",
                     "quantity": 6
                 },
                 {
@@ -1232,7 +1232,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient": "Courgette",
+                    "ingredient": "Courgettes",
                     "quantity": 2
                 },
                 {
@@ -1271,7 +1271,7 @@
             "servings": 2,
             "ingredients": [
                 {
-                    "ingredient": "Courgette",
+                    "ingredient": "Courgettes",
                     "quantity": 2
                 },
                 {
@@ -1280,7 +1280,7 @@
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Huile d'olives",
+                    "ingredient": "Huile d'olive",
                     "quantity": 25,
                     "unit": "cl"
                 },
@@ -1341,7 +1341,7 @@
             "servings": 40,
             "ingredients": [
                 {
-                    "ingredient": "Pomme",
+                    "ingredient": "Pommes",
                     "quantity": 2
                 },
                 {
@@ -1376,7 +1376,7 @@
                     "unit": "Litres"
                 },
                 {
-                    "ingredient": "Citron Vert",
+                    "ingredient": "Citron vert",
                     "quantity": 3
                 },
                 {
@@ -1405,7 +1405,7 @@
                     "quantity": 3
                 },
                 {
-                    "ingredient": "Chocolat noir",
+                    "ingredient": "Chocolat",
                     "quantity": 100,
                     "unit": "grammes"
                 },
@@ -1508,7 +1508,7 @@
                     "unit":"grammes"
                 },
                 {
-                    "ingredient": "farine",
+                    "ingredient": "Farine",
                     "quantity": 40,
                     "unit": "grammes"
                 }
@@ -1609,7 +1609,7 @@
                     "unit": "grammes"
                 },
                 {
-                    "ingredient": "Crème Fraîche",
+                    "ingredient": "Crème fraîche",
                     "quantity": 20,
                     "unit":"cl"
                 }
@@ -1639,7 +1639,7 @@
                     "unit": "barquettes"
                 },
                 {
-                    "ingredient": "Champignons de paris",
+                    "ingredient": "Champignons",
                     "quantity": 1,
                     "unit":"boites"
                 },

@@ -1,5 +1,5 @@
 *{
-    background-color:white;
+
     margin: auto;
 }
 
@@ -20,31 +20,131 @@ body{
     align-items: center;
 }
 
-input{
-    width: 100%;
-    height: 80px;
-    background-color: #e7e7e7;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    textarea{
-        font-size: large;
+.searchBarreDiv{
+    position: relative;
+
+    input{
+        width: 100%;
+        height: 50px;
+        background-color: #e7e7e7;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        color: grey;
+        padding : 20px;
+        textarea{
+            font-size: large;
+        }
+    }
+    .loupeRecherche{
+        position: absolute;
+        top: 32px;
+        right: 0px;
+        background-color: #e7e7e7;
     }
 }
 
-select{
+#keyWordSelect{
+    align-items: flex-start;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    height: 40px;
+    .keyword-block{
+        width: auto;
+        height: 30px;
+        background-color: #3282f7;
+        align-items:flex-start;
+        border-radius: 10px;
+        text-align: start;
+        align-self: flex-start;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        //text-align: center;
+        justify-content: center;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 0px;
+    }
+    .fa-times-circle{
+        padding-left: 10px;
+    }
+}
+#selectDiv{
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+
+}
+label{
     width: auto;
     height: auto;
     border-radius: 5px;
     border: none;
-    margin-right: 50px;
+    margin-right:70px;
     padding: 20px 20px 20px 5px;
     font-weight: bold;
 }
-#selectIngredient{
+
+    
+#ingredientButton{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+
+}
+#selectIngredientButton{
     background-color: #3282f7;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 60px;
+    width: 200px;
+    padding: 0px;
+    cursor: pointer;
 }
+
+#searchBarIngredient{
+    align-items: center;
+    background-color: #3282f7;
+    color: white;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-height: 50px;
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+
+}
+#selectIngredient {
+    background-color: #3282f7;
+    color: white;
+    padding-left: 20px;
+    max-height: 50px;
+    overflow-y: scroll;
+    
+    option{
+        background-color: #3282f7;
+        color: white; 
+        width: 650px;
+
+    }
+}
+  
 
 #selectAppareil{
     background-color: #68d9a4;
@@ -81,20 +181,23 @@ main{
             display: flex;
             margin-top: 10px;
             text-align: start;
+            background-color: #e7e7e7;
             h3{
                 font-family: 'Lato', sans-serif;
-                font-size: 18px;
-                font-weight: 400;
+                font-size: 16px;
+                font-weight: bold;
                 line-height: 21px;
                 width: 70%;
                 align-items: flex-start;
-                margin: 0px;
+                margin: 0px 0px 0px 10px;
                 height: auto;
+                background-color: #e7e7e7;
             }
             .tempsCuisson{
                 width: 30%;
                 margin: 0px;
                 display: flex;
+                background-color: #e7e7e7;
                 .timerClock{
                     width: 20px;
                     height: 20px;
@@ -104,13 +207,46 @@ main{
                 p{
                     margin: 0px;
                     font-family: 'Lato', sans-serif;
-                    font-size: 18px;
+                    font-size: 16px;
                     font-weight: 700;
+                    background-color: #e7e7e7;
 
                 }
             }
     
         }
+
+    .description-card{
+        display: flex;
+        margin-top: 10px;
+        background-color: #e7e7e7;
+        overflow: hidden;
+        font-family: 'Roboto', sans-serif;
+        .liste-ingredient{
+            width: 50%;
+            margin: 0px 15px 0px 10px;
+            font-size: 11px;
+            background-color: #e7e7e7;
+            overflow: hidden;
+            height: 80px;
+            .ingredients{
+                font-weight:normal;
+                width: 140px;
+                overflow: hidden;
+                background-color: #e7e7e7;
+            }
+        }
+        .description-recette{
+            width: 50%;
+            height: 80px;
+            overflow: hidden;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            font-size: 11px;
+            background-color: #e7e7e7;
+            margin: 0px 10px 0px 0px;
+        }
+    }
        
     }
     

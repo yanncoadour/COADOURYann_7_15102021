@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/e0ec5a3dfc.js" crossorigin="anonymous"></script>
+
+
     <title>Mes petits plats</title>
 </head>
 
@@ -16,24 +21,34 @@
 
 <body>
     
-    <input type="text">
-
-    <div id="selectDiv">
-        <select id="selectIngredient">
-            <option>Ingredients</option>
-        </select>
-
-        <select id="selectAppareil">
-            <option>Appareils</option>
-        </select>
-
-        <select id="selectUstensiles">
-            <option>Ustensiles</option>
-        </select>
+    <div class="searchBarreDiv">
+        <input type="text"  id="searchBarInput" placeholder="Recherchez un ingrédient, appareil, ustensiles ou une recette"/>
+        <img src="Maquettes/loupe.png" class="loupeRecherche" alt="Une loupe pour marquer un bouton recherche"></img>
     </div>
 
+    <div id="keyWordSelect"></div>
+
+    <div id="selectDiv">
+
+        <div id="ingredientButton">
+            <label id="selectIngredientButton">
+                    <p>Ingredients</p> <i class="fas fa-chevron-down"></i>
+                    <input list="selectIngredient" type="text" id="searchBarIngredient" placeholder="Recherchez un ingredient"/>
+                    <datalist id="selectIngredient" size="5"></datalist>
+            </label>
+           
+        </div>
+  
+
+        <datalist id="selectAppareil"></datalist>
+
+        <datalist id="selectUstensiles"></datalist>
+    </div>
+    
     <main></main>
-    <img src="Maquettes/timer.png"></img>
+    
 </body>
 <script type="text/javascript" src="Javascript/main.js"></script>
+<script type="text/javascript" src="Javascript/classes.js"></script>
+<script type="text/javascript" src="Javascript/animations.js"></script>
 </html>
