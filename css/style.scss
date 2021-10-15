@@ -1,0 +1,117 @@
+*{
+    background-color:white;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    a{
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+
+body{
+    width: 1040px;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 80px;
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    textarea{
+        font-size: large;
+    }
+}
+
+select{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: none;
+    margin-right: 50px;
+    padding: 20px 20px 20px 5px;
+    font-weight: bold;
+}
+#selectIngredient{
+    background-color: #3282f7;
+    color: white;
+}
+
+#selectAppareil{
+    background-color: #68d9a4;
+    color: white;
+}
+
+#selectUstensiles{
+    background-color: #ed6454;
+    color: white;
+}
+
+main{
+    margin-top: 50px ;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-self: stretch;
+    article{
+        width: 100%;
+        height: 313px;
+        background-color: #e7e7e7;
+        border-radius: 5px;
+        .illustrationRecette{
+            width: 100%;
+            height: 50%;
+            background-color: #c7bfbf;
+            border-radius: 5px 5px 0px 0px;
+        }
+        .titreTempsCuisson{
+            display: flex;
+            margin-top: 10px;
+            text-align: start;
+            h3{
+                font-family: 'Lato', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21px;
+                width: 70%;
+                align-items: flex-start;
+                margin: 0px;
+                height: auto;
+            }
+            .tempsCuisson{
+                width: 30%;
+                margin: 0px;
+                display: flex;
+                .timerClock{
+                    width: 20px;
+                    height: 20px;
+                    margin: 0px;
+                    padding-right: 5px;
+                }
+                p{
+                    margin: 0px;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+
+                }
+            }
+    
+        }
+       
+    }
+    
+}
