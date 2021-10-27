@@ -36,16 +36,28 @@
                     <input list="selectIngredient" type="text" id="searchBarIngredient" placeholder="Recherchez un ingredient"/>
                     <datalist id="selectIngredient" size="5"></datalist>
             </label>
-           
         </div>
   
+        <div id="appareilButton">
+            <label id="selectAppareilButton">
+                    <p>Appareil</p> <i class="fas fa-chevron-down"></i>
+                    <input list="selectAppareil" type="text" id="searchBarAppareil" placeholder="Recherchez un appareil"/>
+                    <datalist id="selectAppareil" size="5"></datalist>
+            </label>
+        </div>
 
-        <datalist id="selectAppareil"></datalist>
+        <div id="ustensileButton">
+            <label id="selectUstensileButton">
+                    <p>Ustensiles</p> <i class="fas fa-chevron-down"></i>
+                    <input list="selectUstensile" type="text" id="searchBarUstensile" placeholder="Recherchez un ustensile"/>
+                    <datalist id="selectUstensile" size="5"></datalist>
+            </label>
+        </div>
 
-        <datalist id="selectUstensiles"></datalist>
     </div>
     
     <main></main>
+    <div class="no-resultat-bloc"></div>
     
 </body>
 <script type="text/javascript" src="Javascript/main.js"></script>

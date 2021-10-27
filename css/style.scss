@@ -6,7 +6,9 @@
 header{
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     a{
@@ -24,12 +26,12 @@ body{
     position: relative;
 
     input{
-        width: 100%;
+        width: 96%;
         height: 50px;
         background-color: #e7e7e7;
         border: none;
         border-radius: 5px;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         color: grey;
         padding : 20px;
         textarea{
@@ -39,23 +41,26 @@ body{
     .loupeRecherche{
         position: absolute;
         top: 32px;
-        right: 0px;
+        right: 35px;
         background-color: #e7e7e7;
     }
 }
 
 #keyWordSelect{
-    align-items: flex-start;
+    align-items: center;
     display:flex;
     justify-content: flex-start;
     position: relative;
-    height: 40px;
-    .keyword-block{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ 
+    .keyword-block-bleu{
         width: auto;
         height: 30px;
         background-color: #3282f7;
         align-items:flex-start;
-        border-radius: 10px;
+        border-radius: 5px;
         text-align: start;
         align-self: flex-start;
         color: white;
@@ -63,22 +68,57 @@ body{
         font-size: small;
         display: flex;
         align-items: center;
-        //text-align: center;
+        justify-content: center;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 0px;
+    }
+    .keyword-block-green{
+        width: auto;
+        height: 30px;
+        background-color: #68d9a4;
+        align-items:flex-start;
+        border-radius: 5px;
+        text-align: start;
+        align-self: flex-start;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .keyword-block-red{
+        width: auto;
+        height: 30px;
+        background-color: #ed6454;
+        align-items:flex-start;
+        border-radius: 5px;
+        text-align: start;
+        align-self: flex-start;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        display: flex;
+        align-items: center;
         justify-content: center;
         padding: 0px 10px 0px 10px;
         margin: 0px 10px 0px 0px;
     }
     .fa-times-circle{
         padding-left: 10px;
+        cursor: pointer;
     }
 }
 #selectDiv{
-    height: 40px;
+    height: 60px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
-
+    width: 100%;
 }
 label{
     width: auto;
@@ -94,67 +134,164 @@ label{
 #ingredientButton{
     width: 200px;
     height: 60px;
-    position: absolute;
     cursor: pointer;
-
-}
-#selectIngredientButton{
-    background-color: #3282f7;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    height: 60px;
-    width: 200px;
-    padding: 0px;
-    cursor: pointer;
-}
-
-#searchBarIngredient{
-    align-items: center;
-    background-color: #3282f7;
-    color: white;
-    width: 250px;
-    height: 50px;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    max-height: 50px;
-    overflow-y: scroll;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 5px;
-
-}
-#selectIngredient {
-    background-color: #3282f7;
-    color: white;
-    padding-left: 20px;
-    max-height: 50px;
-    overflow-y: scroll;
+    margin: 0px;
+    position: relative;
     
-    option{
+    #selectIngredientButton{
         background-color: #3282f7;
-        color: white; 
-        width: 650px;
-
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        height: 60px;
+        width: 160px;
+        padding: 0px;
+        cursor: pointer;
+    }
+    
+    #searchBarIngredient{
+        align-items: center;
+        background-color: #3282f7;
+        color: white;
+        width: 240px;
+        height: 35px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        left: 0px;
+        max-height: 50px;
+        overflow-y: scroll;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        display: none;
+    }
+    #selectIngredient {
+        background-color: #3282f7;
+        color: white;
+        padding-left: 20px;
+        max-height: 50px;
+        overflow-y: scroll;
+        appearance: none;
+        .option{
+            background-color: #3282f7;
+            width: 650px;
+        }
     }
 }
-  
 
-#selectAppareil{
-    background-color: #68d9a4;
-    color: white;
+
+#appareilButton{
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0px;
+    position: relative;
+    #selectAppareilButton{
+        background-color: #68d9a4;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        height: 60px;
+        width: 160px;
+        padding: 0px;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    #searchBarAppareil{
+        align-items: center;
+        background-color: #68d9a4;
+        color: white;
+        width: 240px;
+        height: 35px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        left: 0px;
+        max-height: 50px;
+        overflow-y: scroll;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        display: none;
+    }
+    #selectAppareil {
+        background-color: #68d9a4;
+        color: white;
+        padding-left: 20px;
+        max-height: 50px;
+        overflow-y: scroll;
+        appearance: none;
+        .option{
+            background-color: #68d9a4;
+            width: 650px;
+        }
+    }
 }
 
-#selectUstensiles{
-    background-color: #ed6454;
-    color: white;
+
+#ustensileButton{
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    margin: 0px;
+    position: relative;
+
+    #selectUstensileButton{
+        background-color: #ed6454;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: normal;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        height: 60px;
+        width: 160px;
+        padding: 0px;
+        cursor: pointer;
+        position: absolute;
+    }
+    
+    #searchBarUstensile{
+        align-items: center;
+        background-color: #ed6454;
+        color: white;
+        width: 240px;
+        height: 35px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: absolute;
+        left: 0px;
+        max-height: 50px;
+        overflow-y: scroll;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        display: none;
+        position: absolute;
+    }
+    #selectUstensile {
+        background-color: #ed6454;
+        color: white;
+        padding-left: 20px;
+        max-height: 50px;
+        overflow-y: scroll;
+        appearance: none;
+        .option{
+            background-color: #ed6454;
+            width: 650px;
+        }
+    }
 }
+
+
 
 main{
     margin-top: 50px ;
@@ -189,7 +326,7 @@ main{
                 line-height: 21px;
                 width: 70%;
                 align-items: flex-start;
-                margin: 0px 0px 0px 10px;
+                margin: 0px 12px 0px 10px;
                 height: auto;
                 background-color: #e7e7e7;
             }
@@ -227,19 +364,24 @@ main{
             margin: 0px 15px 0px 10px;
             font-size: 11px;
             background-color: #e7e7e7;
-            overflow: hidden;
-            height: 80px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            height: 90px;
             .ingredients{
                 font-weight:normal;
                 width: 140px;
                 overflow: hidden;
+                text-decoration: none;
+                text-overflow: ellipsis;
                 background-color: #e7e7e7;
             }
         }
         .description-recette{
             width: 50%;
             height: 80px;
-            overflow: hidden;
+            overflow-y: scroll;
             text-decoration: none;
             text-overflow: ellipsis;
             font-size: 11px;
@@ -249,5 +391,28 @@ main{
     }
        
     }
-    
+
 }
+.no-resultat-bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+
+    .no-resultat-by-searchbar{
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+
+  }
