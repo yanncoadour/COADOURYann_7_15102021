@@ -15,15 +15,14 @@
     <title>Mes petits plats</title>
 </head>
 
-<header>
-    <a href="index.html"><img src="Maquettes/logo.png" alt="Toque rouge - logo de mes petits plats"></img></a>
-</header>
-
 <body>
-    
+    <header>
+        <a href="index.html"><img src="Maquettes/logo.png" alt="Toque rouge - logo de mes petits plats"/></a>
+    </header>
+
     <div class="searchBarreDiv">
         <input type="text"  id="searchBarInput" placeholder="Recherchez un ingrédient, appareil, ustensiles ou une recette"/>
-        <img src="Maquettes/loupe.png" class="loupeRecherche" alt="Une loupe pour marquer un bouton recherche"></img>
+        <img src="Maquettes/loupe.png" class="loupeRecherche" alt="Une loupe pour marquer un bouton recherche"/>
     </div>
 
     <div id="keyWordSelect"></div>
@@ -31,27 +30,39 @@
     <div id="selectDiv">
 
         <div id="ingredientButton">
-            <label id="selectIngredientButton">
-                    <p>Ingredients</p> <i class="fas fa-chevron-down"></i>
-                    <input list="selectIngredient" type="text" id="searchBarIngredient" placeholder="Recherchez un ingredient"/>
-                    <datalist id="selectIngredient" size="5"></datalist>
-            </label>
+            <div class="title-button-ingred"> <h4>Ingredients</h4> <i class="fas fa-chevron-down"></i></div>
+            <form id="selectIngredientButton">
+                <div id="bloc-liste-ingredient">
+                    <input type="text" list="test"  id="searchBarIngredient" placeholder="Recherchez un ingrédient"/>
+                    <div id="liste-Ingredient-injected-container">
+                        <ul id="listeIngredientInjected"></ul>
+                    </div>
+                </div>
+            </form>
         </div>
   
         <div id="appareilButton">
-            <label id="selectAppareilButton">
-                    <p>Appareil</p> <i class="fas fa-chevron-down"></i>
-                    <input list="selectAppareil" type="text" id="searchBarAppareil" placeholder="Recherchez un appareil"/>
-                    <datalist id="selectAppareil" size="5"></datalist>
-            </label>
+            <div class="title-button-appareil"><h4>Appareil</h4> <i class="fas fa-chevron-down"></i></div>
+            <form id="selectAppareilButton">
+                <div id="bloc-liste-appareil">
+                    <input type="text" list="test"  id="searchBarAppareil" placeholder="Recherchez un appareil"/>
+                    <div id="liste-Appareil-injected-container">
+                        <ul id="listeAppareilInjected"></ul>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <div id="ustensileButton">
-            <label id="selectUstensileButton">
-                    <p>Ustensiles</p> <i class="fas fa-chevron-down"></i>
-                    <input list="selectUstensile" type="text" id="searchBarUstensile" placeholder="Recherchez un ustensile"/>
-                    <datalist id="selectUstensile" size="5"></datalist>
-            </label>
+            <div class="title-button-ustensile"><h4>Ustensiles</h4> <i class="fas fa-chevron-down"></i></div>
+            <form id="selectUstensileButton">
+                <div id="bloc-liste-ustensile">
+                    <input type="text" list="test"  id="searchBarUstensile" placeholder="Recherchez un ustensile"/>
+                    <div id="liste-Ustensile-injected-container">
+                        <ul id="listeUstensileInjected"></ul>
+                    </div>
+                </div>
+            </form>
         </div>
 
     </div>
@@ -59,8 +70,14 @@
     <main></main>
     <div class="no-resultat-bloc"></div>
     
+    <script  src="Javascript/main.js"></script>
+    <script  src="Javascript/classes.js"></script>
+    <script  src="Javascript/animations.js"></script>
+    <script  src="Javascript/ingredientFilter.js"></script>
+    <script  src="Javascript/appareilFilter.js"></script>
+    <script  src="Javascript/ustensileFilter.js"></script>
+    <script  src="Javascript/mainInputFilter.js"></script>
 </body>
-<script type="text/javascript" src="Javascript/main.js"></script>
-<script type="text/javascript" src="Javascript/classes.js"></script>
-<script type="text/javascript" src="Javascript/animations.js"></script>
+
+
 </html>
