@@ -214,8 +214,8 @@ searchBarAppareil.addEventListener('keyup', (e) => {
 
         })
     }
+    
 
- 
     // Fonction de filtre Algorithme
     filterAppareilAlgorithme();
 

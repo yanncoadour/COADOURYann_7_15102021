@@ -58,9 +58,9 @@ mainSearchBarinput.addEventListener('keyup', (e) => {
 
     recetteDisplay(resultatFilter);
 
-
-
 });
+
+
 
 
 
